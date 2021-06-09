@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dani/GitHub/_curs_udg/flutter_dia_4/curs_udg_chat/Chat.GRPC/Chat.GRPC.csproj": {}
+  },
+  "projects": {
+    "/Users/dani/GitHub/_curs_udg/flutter_dia_4/curs_udg_chat/Chat.GRPC/Chat.GRPC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dani/GitHub/_curs_udg/flutter_dia_4/curs_udg_chat/Chat.GRPC/Chat.GRPC.csproj",
+        "projectName": "Chat.GRPC",
+        "projectPath": "/Users/dani/GitHub/_curs_udg/flutter_dia_4/curs_udg_chat/Chat.GRPC/Chat.GRPC.csproj",
+        "packagesPath": "/Users/dani/.nuget/packages/",
+        "outputPath": "/Users/dani/GitHub/_curs_udg/flutter_dia_4/curs_udg_chat/Chat.GRPC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/UniversitatDeGirona-EquipAliga/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

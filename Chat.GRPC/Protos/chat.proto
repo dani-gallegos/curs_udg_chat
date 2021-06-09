@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "Chat.GRPC";
+
+package chat_dto;
+
+service ChatterBox {
+  rpc Chat (stream ChatMessage) returns (stream ChatMessage);
+}
+
+message ChatMessage {
+  string message = 1;
+}
+
